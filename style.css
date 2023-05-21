@@ -1,19 +1,54 @@
-html,
-body {
+/* General style, whole code */
+html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90.5%;
 }
 
+/* Headers */
 h1 {
     background: #004c87;
     color: white;
     padding: 2.5%;
-    margin: 15px;
 }
 
+h2 {
+    background: #004c87;
+    color: white;
+    padding: 2.5%;
+}
+
+/* Div 2 columns */
+.two-column-div {
+    width: 100%;
+   }
+
+.right-column {
+    padding: 50px;
+    background-color: lightslategray;
+    width: 40%;
+    float: right;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.left-column {
+    padding: 50px;
+    background-color: lightslategray;
+    width: 40%;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+   
+/* Nav style and effects */
 nav {
     background: #004c87;
     padding: 2.5%;
-    margin-inline: 15px;
     color: white;
 }
 
@@ -40,5 +75,5 @@ a {
 
 a:hover {
     --_p: 100%;
-    --_s: .3s;
+    --_s: .25s;
 }
